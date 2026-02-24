@@ -4,12 +4,14 @@ Implementazione base di un registro elettronico fatto da terminale con C++
 senza salvataggi
 
 # !!! LEGGI LA WIKI PER VEDERE LE FUNZIONALITA' IN ARRIVO !!!
+# SI ACCETTANO CONSIGLI DI QUALSIASI TIPO
 
 # 1: Librerie Utilizzate
 - iostream
 - vector
 - string
 - cstdlib
+- print
 
 # 2: IDE Usato
 CLion
@@ -22,14 +24,11 @@ CLion
 
 # 4: Come Eseguirlo?
 
-Andare nella cartella /cmake-build-debug ed avviare RegistroElettronico.exe- Aprire il terminale nella root della cartella e digitare g++ main.cpp -o RegistroElettronico.exe
-<h4> Oppure </h4>
-- Aprire il progetto in un IDE (Come Clion, Code::blocks o DevC++) e compilarlo da li.
+Compilarlo via terminale con g++, oppure utilizzare cmake, attenzione col g++ perchè bisogna
+mettere lo standard c23. Su linux non è ancora stato implementato del tutto mentre su windows funziona utilizzando
+il compilatore di visual studio. 
 
-# 5:  Come aprire il codice sorgente?
+# 5: Se l'antivirus mi blocca il .exe appena compilato?
+Abbastanza normale quando si esegue un programma non firmato, semplicemente escluderlo dall'antivirus
 
-Andare nella root della cartella e aprire il main.cpp
-
-# 6: Se l'antivirus mi blocca il .exe?
-- Cancellare l'eseguibile in /cmake-build-debug e seguire il punto 6.
 
